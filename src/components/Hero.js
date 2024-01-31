@@ -14,7 +14,7 @@ export default function Hero() {
                 </button></Link>
             </div>
             <div className="img-wrapper">
-            <img className="hero-img" src="../images/hero.png" alt="hero image"/>
+            <img className="hero-img" src="/images/logo.png" alt="hero"/>
             </div>
         </div>
       </div>

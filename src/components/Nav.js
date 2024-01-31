@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 export default function Nav(){
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
 
 
@@ -12,11 +12,11 @@ export default function Nav(){
 
             <nav>
                 <Link to="/" className="nav-item">HOME</Link>
-                <a href="#" className="nav-item">ABOUT</a>
-                <a href="#" className="nav-item">MENU</a>
+                <Link to="/about" className="nav-item">ABOUT</Link>
+                <Link to="/menu" className="nav-item">MENU</Link>
                 <Link to="/booking" className="nav-item">RESERVATIONS</Link>
-                <a href="#" className="nav-item">ORDER ONLINE</a>
-                <a href="#" className="nav-item">LOGIN</a>
+                <Link to="/contact" className="nav-item">CONTACT</Link>
+                <Link to="/login" className="nav-item">LOGIN</Link>
             </nav>
         </>
     )

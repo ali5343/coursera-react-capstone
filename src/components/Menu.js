@@ -9,7 +9,7 @@ export default function Menu() {
         </div>
         <div className="cards">
             <div className="card">
-                <img className="menu-img" src="/images/greek-salad.png" alt="greek salad"/>
+                <img className="menu-img" src="/images/logo.png" alt="greek salad"/>
                 <div className="name-price">
                     <p className="item-name">Greek Salad</p>
                     <p className="item-price">$12.99</p>

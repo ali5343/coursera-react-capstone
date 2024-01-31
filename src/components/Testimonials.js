@@ -4,7 +4,7 @@ export default function Testimonials() {
         <p className="testimonials-title">Testimonials</p>
         <div className="testimonials">
             <div className="testimonial">
-                <img className="reviewer-img" src="/images/reviewer1.png" alt="greek salad"/>
+                <img className="reviewer-img" src="/images/logo.png" alt="greek salad"/>
                 <div className="name-rating">
                     <p className="reviewer-name">John Doe</p>
                     <p className="reviewer-rating">5/5</p>
